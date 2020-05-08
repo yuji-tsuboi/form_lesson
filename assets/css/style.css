@@ -147,6 +147,8 @@
 
 .input_init {
   -webkit-appearance: none;
+  appearance: none;
+  -moz-appearance: none;
   outline: none;
   resize: none;
 }
@@ -279,3 +281,55 @@
 .remark .input_area {
   height: 100px;
 }
+
+/* 送信ボタン */
+
+.submit_button {
+  padding: 13px;
+  background-color: #01bfbd;
+  color: #fff;
+}
+
+.submit_button:hover {
+  background-color: #01bfbd;
+}
+
+.submit_button:active {
+  background-color: #fff;
+  border: 1px solid #01bfbd;
+  color: #01bfbd;
+}
+
+/* テキスト */
+
+.text {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.text_link {
+  color: #01a6a4;
+}
+
+.text_link:hover {
+  color: #01bfbd;
+}
+
+/* フッター */
+
+.footer {
+  text-align: center;
+}
+
+.footer p, .mail {
+  margin-bottom: 8px;
+  line-height: 16px;
+  font-size: 12px;
+}
+
+.footer a:hover {
+  box-sizing: border-box;
+  border-bottom: 1px solid #ececec;
+  border-bottom-color: #01bfbd;
+}
+
