@@ -26,7 +26,7 @@
           <div class="devider">
             <p class="is-defaulttext">アカウント情報</p>
           </div>
-          <form class="form_content" action="#" method="get">
+          <form class="form_content" action="#" method="post">
             <!-- 名前 -->
             <div class="row name_box">
               <div class="name is-halfwidth">
@@ -47,11 +47,11 @@
                   <span>男性</span>
                 </label>
                 <label class="gender_checkcircle">
-                  <input type="radio" class="gender_input" name="gender" value="male">
+                  <input type="radio" class="gender_input" name="gender" value="female">
                   <span>女性</span>
                 </label>
                 <label class="gender_checkcircle">
-                  <input type="radio" class="gender_input" name="gender" value="male">
+                  <input type="radio" class="gender_input" name="gender" value="other">
                   <span>その他</span>
                 </label>
               </div>
@@ -78,6 +78,7 @@
               <p class="label_text">電話番号</p>
               <input type="tel" class="input_init input_area is-fullwidth" name="tel" placeholder="ex) 09012345678">
             </div>
+            <!-- パスワード -->
             <div class="row password">
               <p class="label_text">パスワード<span class="asterisk"> ※<span></p>
               <input type="password" class="input_init input_area is-fullwidth" name="password" required>
@@ -85,8 +86,10 @@
             <div class="row password">
               <p class="label_text">パスワード(確認用)<span class="asterisk"> ※</span></p>
               <input type="password" class="input_init input_area
-              is-fullwidth" name="password" required>
+              is-fullwidth" name="password_confirm" required>
+    
             </div>
+            <!-- 希望コース -->
             <div class="row course">
               <p class="label_text">希望コース</p>
               <div class="course_option">
